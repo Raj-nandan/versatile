@@ -21,6 +21,6 @@ def translate_text():
     
     return jsonify({"translated_text": translation.text})
 
-if __name__ == '__main__':
-    # Use Gunicorn or another WSGI server in production
-    app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)), debug=app.config['DEBUG'])  # Update to run on all interfaces
+# if __name__ == '__main__':
+#     # Use Gunicorn or another WSGI server in production
+#     app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)), debug=app.config['DEBUG'])  # Update to run on all interfaces
