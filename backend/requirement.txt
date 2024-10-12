@@ -1,0 +1,4 @@
+flask
+googletrans==4.0.0-rc1  # Specify the version if needed
+flask_cors
+gunicorn  # Add this for production deployment
